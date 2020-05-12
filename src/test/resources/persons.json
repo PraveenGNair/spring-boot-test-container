@@ -1,0 +1,36 @@
+{
+  "_embedded": {
+    "persons": [
+      {
+        "firstName": "Little",
+        "lastName": "Red",
+        "address": "104,The Beresford Road.",
+        "city": "New York",
+        "telephone": "0182951023",
+        "_links": {
+          "self": {
+            "href": "http://localhost/persons/1"
+          },
+          "owner": {
+            "href": "http://localhost/persons/1"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost/persons{?page,size,sort}",
+      "templated": true
+    },
+    "profile": {
+      "href": "http://localhost/profile/persons"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 1,
+    "totalPages": 1,
+    "number": 0
+  }
+}
