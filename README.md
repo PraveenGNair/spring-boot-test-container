@@ -1,7 +1,8 @@
-# Spring Boot tests with TestContainers and PostgreSQL
+# Spring Boot integration tests with TestContainers (PostgreSQL)
 
 ## Overview
 Use Testcontainers for integration testing with Spring Data JPA and the PostgreSQL database.
+Detailed overview can be found on the [blog](https://medium.com/@prgnr173/spring-boot-with-test-containers-ca5f9dceae79)
 
 ## Package the application
 
